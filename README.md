@@ -53,7 +53,7 @@ Processing_csn
 ```
 python Image_cell_segmentation.py --basePath ./stMVC_test_data/IDC/ --jsonFile tissue_hires_image.json
 ```
-### Step 3. Run VAE and stMVC model
+### Step 4. Run VAE and stMVC model
 ```
 python VAE train
 python stMVC_model.py --basePath ./stMVC_test_data/DLPFC_151673/ --fusion_type Attention
